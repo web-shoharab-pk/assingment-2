@@ -1,0 +1,81 @@
+div h1{
+     font-size: 4em;
+     font-weight: 700;
+ }
+ 
+ .container{
+    margin-bottom: 5em;
+ }
+ .all-button1 {
+     font-size: 1em;
+     font-weight: 500;
+     color: white;
+     padding: 15px 25px;
+     background-color: #8AA520 ;
+     border: 0;
+     border-radius: 10px;  
+ }
+ .all-button1:hover{
+     box-shadow: 5px 5px 5px pink;
+   
+ }
+ .all-card{
+    border: 0 !important;
+    border-radius: 10px !important;
+ }
+ .price{
+     font-size: 2.5em;
+     font-weight: 700;
+    margin-right: 2.5em;
+     color: #FABE4C;
+ }
+.section-four-img{
+    width: 5em;
+}
+
+    /* code for responsive */
+    
+ @media screen and (max-width: 1180px)  {
+    #search-bar{
+        display: none  !important;
+    }
+ }
+ 
+ @media screen and (max-width: 992px)  {
+    #search-bar{
+        display:flex  !important;
+    }
+    .price{
+        margin-right: 0em;
+    }
+ }
+ @media screen and (max-width: 768px){
+    .all-button1 {
+        font-size: .8em;
+        font-weight: 500;
+        color: white;
+        padding: 10px 20px;
+        background-color: #8AA520 ;
+        border: 0;
+        border-radius: 10px;  
+    }
+ }
+ @media screen and (max-width: 575px)  {
+    .all-button1 {
+        font-size: 1em;
+        font-weight: 500;
+        color: white;
+        padding: 15px 25px;
+        background-color: #8AA520 ;
+        border: 0;
+        border-radius: 10px;  
+    }
+    .price{
+        margin-right: 3em;
+    }
+ }
+ @media screen and (max-width: 320px){
+    .price{
+        margin-right: 0em;
+    }
+ }
