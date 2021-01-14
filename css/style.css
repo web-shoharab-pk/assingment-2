@@ -18,17 +18,24 @@ div h1{
  .price{
      font-size: 2.5em;
      font-weight: 700;
-    /* margin-right: 2.5em; */
+  
      color: #FABE4C;
  }
 .section-four-img{
     width: 5em;
 }
 
-    /* code for responsive */         
+    /* code for responsive */  
+
     @media screen and (max-width: 1180px)  {
     #search-bar{
         display: none  !important;
+    }
+}
+@media screen and (max-width: 992px){
+    .card-group{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
     }
 }
 
@@ -39,9 +46,7 @@ div h1{
     }
  }
  @media screen and (max-width: 320px){
-    /* .price{
-        margin-right: 0em;
-    } */
+
     .container-fluid img {
         flex-wrap: nowrap;
         width: 180px;
